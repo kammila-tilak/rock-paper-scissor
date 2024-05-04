@@ -21,39 +21,39 @@ function playgame(playermove) {
 
     let result = '';
 
-    if (playermove === 'Scissors') {
-        if (computerMove === 'Rock') {
+    if (playermove === 'scissors') {
+        if (computerMove === 'rock') {
             result = 'You lose';
         }
-        else if (computerMove === 'Paper') {
+        else if (computerMove === 'paper') {
             result = 'You win';
         }
-        else if (computerMove === 'Scissors') {
+        else if (computerMove === 'scissors') {
             result = 'Tie';
         }
     }
     
-    else if (playermove === 'Paper') {
-        if (computerMove === 'Paper') {
+    else if (playermove === 'paper') {
+        if (computerMove === 'paper') {
             result = 'Tie';
         }
-        else if (computerMove === 'Scissors') {
+        else if (computerMove === 'scissors') {
             result = 'You lose';
         }
-        else if (computerMove === 'Rock') {
+        else if (computerMove === 'rock') {
             result = 'You win';
         }
 
     }
 
-    else if (playermove === 'Rock') {
-        if (computerMove === 'Scissors') {
+    else if (playermove === 'rock') {
+        if (computerMove === 'scissors') {
             result = 'You win';
         }
-        else if (computerMove === 'Rock') {
+        else if (computerMove === 'rock') {
             result = 'Tie';
         }
-        else if (computerMove === 'Paper') {
+        else if (computerMove === 'paper') {
             result = 'You lose';
         }
 
