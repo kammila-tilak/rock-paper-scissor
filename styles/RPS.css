@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(24, 23, 23);
     color: white;
-    font-family: "Anton", sans-serif;
+    font-family: "Rubik", sans-serif;
     width: 100%;
     letter-spacing: 3px;
 }
 
 .title{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 900;
     justify-content: center;
+    letter-spacing: 7px;
     margin-bottom: 70px;
+    color: #ffdc4f;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 .move-icon{
@@ -33,12 +38,15 @@ body{
 }
 
 .result{
+    font-family: "Rubik", sans-serif;
     font-size: 25px;
     margin-top: 50px;
 }
 
 .score{
     margin-top: 60px;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
 }
 
 .reset-score-button{
@@ -50,4 +58,8 @@ body{
     background-color: rgb(249, 249, 55);
     font-weight:700;
     font-style :normal;
+}
+
+.reset-score-button:hover {
+    box-shadow:  0 0 .5rem #d1ff65;
 }
